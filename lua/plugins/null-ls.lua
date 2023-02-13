@@ -8,6 +8,8 @@ return {
       nls.builtins.formatting.prettierd,
       nls.builtins.formatting.stylua,
       nls.builtins.diagnostics.flake8,
+      nls.builtins.completion.luasnip,
+      nls.builtins.code_actions.cspell,
     })
   end,
 }
