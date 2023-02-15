@@ -65,7 +65,7 @@ return {
     opts = {
       defaults = {
         layout_strategy = "horizontal",
-        layout_config = { prompt_position = "top" },
+        layout_config = { prompt_position = "left" },
         sorting_strategy = "ascending",
         winblend = 0,
       },
@@ -209,6 +209,8 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "html",
+        "css",
       },
     },
   },
